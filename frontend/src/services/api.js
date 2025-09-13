@@ -116,3 +116,16 @@ export const getTopProducts = (by, token) => apiClient.get(`/dashboard/top-produ
 export const getCategorySales = (token) => apiClient.get('/dashboard/category-sales', { headers: { Authorization: `Bearer ${token}` } });
 export const getRecentInvoices = (token) => apiClient.get('/dashboard/recent-invoices', { headers: { Authorization: `Bearer ${token}` } });
 export const getRevenueTrend = (period, token) => apiClient.get(`/dashboard/revenue-trend?period=${period}`, { headers: { Authorization: `Bearer ${token}` } });
+export const setupAxiosInterceptors = (onUnauthorized) => {
+  apiClient.interceptors.response.use(
+    (response) => response, // If the response is successful, just return it
+    (error) => {
+      // If the response is a 401 Unauthorized error
+      if (error.response && error.response.status === 401) {
+        onUnauthorized(); // Call the function we passed from App.js
+      }
+      // Return the error to be handled by the component that made the call
+      return Promise.reject(error);
+    }
+  );
+};
