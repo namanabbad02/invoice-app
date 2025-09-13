@@ -41,7 +41,7 @@ async function generateInvoicePDF(invoiceData) {
     }
 
     // Generate Feedback QR dynamically
-    const feedbackQrBase64 = await generateQrBase64('https://forms.gle/your-feedback-form-link');
+    const feedbackQrBase64 = await generateQrBase64('https://forms.gle/m8R2yVTzMPMAX8dm6');
     const InstaQrBase64 = await generateQrBase64('https://www.instagram.com/embellish._nj/');
 
 
