@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import { Analytics } from "@vercel/analytics/react";
 
 import Navbar from './components/Navbar';
 import InvoicePage from './pages/InvoicePage';
@@ -66,6 +67,7 @@ function App() {
         </main>
         <ToastContainer position="bottom-right" theme="colored" autoClose={3000} hideProgressBar />
       </Router>
+      <Analytics />
     </AuthProvider>
   );
 }
