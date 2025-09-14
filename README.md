@@ -45,7 +45,7 @@ A modern, full-stack invoicing application designed for Embellish Jewels, featur
 
 ## 🚀 Live Demo
 
-[**https://invoice-app-lake-three.vercel.app/**]
+**https://invoice-app-lake-three.vercel.app/**
 
 ## 🛠️ Tech Stack
 
@@ -117,7 +117,8 @@ A modern, full-stack invoicing application designed for Embellish Jewels, featur
         GOOGLE_DRIVE_REDIRECT_URI="https://developers.google.com/oauthplayground"
         GOOGLE_DRIVE_REFRESH_TOKEN="..."
         GOOGLE_DRIVE_FOLDER_ID="..."
-        ```    -   Start the backend server: `npm start`
+        ```
+        -   Start the backend server: `npm start`
 
 3.  **Frontend Setup:**
     -   Navigate to the frontend folder: `cd ../frontend`
