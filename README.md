@@ -3,7 +3,7 @@
 # Embellish Jewels - Full-Stack Invoicing & Dashboard SaaS
 
 <p align="center">
-  <img src="https://github.com/namanabbad02/invoice-app/blob/main/assets/dashboard.png?raw=true" alt="Dark Mode Dashboard" width="45%" />
+  <img src="https://github.com/namanabbad02/invoice-app/blob/main/assets/dashboard.png?raw=true" alt="Dark Mode Dashboard" width="48%" />
   &nbsp; <!-- adds some space between the images -->
   <img src="https://github.com/namanabbad02/invoice-app/blob/main/assets/Invoice.png?raw=true" alt="Dark Mode Invoice" width="50%" />
 </p>
