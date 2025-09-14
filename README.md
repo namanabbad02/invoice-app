@@ -3,7 +3,7 @@
 # Embellish Jewels - Full-Stack Invoicing & Dashboard SaaS
 
  ![Dashboard Screenshot](https://github.com/namanabbad02/invoice-app/blob/main/assets/dashboad-light.png?raw=true)
-  ![Dashboard Screenshot](https://github.com/namanabbad02/invoice-app/blob/main/assets/dashboad-dark.png?raw=true)
+  ![Dashboard Screenshot](https://github.com/namanabbad02/invoice-app/blob/main/assets/dashboad-light.png?raw=true)
 
 A modern, full-stack invoicing application designed for Embellish Jewels, featuring a complete suite of tools for managing products, customers, and invoices, along with a powerful analytics dashboard. Built with a React frontend and a Node.js/Express backend, this application is designed to be robust, scalable, and user-friendly.
 
